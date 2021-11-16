@@ -1,2 +1,111 @@
-//4명이서 회비를 각자 10만원씩 냈고, 총 24만원을 사용하였다. 각자 나누어 받아야 할 금액은?
+<script>
+//1. 4명이서 회비를 각자 10만원씩 냈고, 총 24만원을 사용하였다. 각자 나누어 받아야 할 금액은?
+// const people = 4;
+// const dues =100000;
+// const total = people * dues;
+// const expenses = 240000;
+// let remain = (total - expenses)/people;
 
+// console.log(remain)
+
+
+//2. 1억원을 카카오뱅크의 1년만기 정기예금에 가입 하였다. 연 이자율이 1.2%이지만, 이자에 대한 세금이 15.4%이다. 예금 만기후 받을 실수령 금액은?
+// const money = 100000000;
+// const month = 12;
+// const interest = 1.012;
+// const tax = money * 0.154;
+// const realAmount = (money * month * interest) - tax;
+
+// console.log(realAmount); 
+
+
+//3. 프리랜서 개발자가 월 500만원을 받고 있다. 3.3% 원천징수를 때고, 월 의료보험 10만원을 낸다. 개발자가 1년동안 한푼도 쓰지않고 모을 수 있는 금액은?
+// const salary = 5000000;
+// const tax = 0.033;
+// const monthSalary = (salary - (salary * tax)) - 100000;
+// const month = 12;
+// const total = monthSalary * 12;
+
+// console.log(total);
+
+
+
+/*4.출력할 문구중에 일정 부분만 바꾸어서 출력하고 싶다. ? 부분을 수정해서 다음을 출력 하시오.
+
+const stringFirst = '올해 총 카드 사용 금액은 ';
+const stringLast = ' 입니다.';
+let stringChange = ?;
+
+올해 총 카드 사용 금액은 오백만원 입니다.
+올해 총 카드 사용 금액은 천만원 입니다.
+올해 총 카드 사용 금액은 이천만원 입니다.
+
+*/
+
+// const stringFirst = '올해 총 카드 사용 금액은 ';
+// const stringLast = ' 입니다.';
+// let stringChange = stringFirst + '이천만원'+stringLast;
+
+// console.log(stringChange)
+
+
+
+/*
+ 5. 주어진 상수와 연산자를 사용하여 다음과 같이 출력 하시오.
+ >> 10곱하기 5는 50이다.
+
+*/
+
+// const string1 = '곱하기 ';
+// const string2 = '는 ';
+// const string3 = ' 이다.';
+// const ten = 10;
+// const four = 5;
+// let stringChange = ten+string1+ four+string2+ ((ten*four)+string3);
+
+// console.log(stringChange)
+
+
+
+/*  
+6. 주어진 상수와 연산자를 사용하여 다음과 같이 출력 하시오.
+>> "9는 3보다 같거나 크다"라는 명제는 true이다.
+*/
+// const string4 = '"';
+// const string5 = '는 ';
+// const string6 = '보다 같거나 크다';
+// const string7 = '라는 명제는 ';
+// const string8 = '이다.';
+// const nine = 9;
+// const three = 3;
+
+// let stringChange = string4+nine+string5 +three+string6+string4+string7 + 'true'+string8;
+
+// console.log(stringChange);
+
+
+/*
+7.주어진 상수와 연산자를 사용하여 다음과 같이 출력 하시오. (논리 연산자 사용)
+>>
+"프리미엄 회원이거나 광고를 봤으면 true이지만, 프리미엄 회원이 아니고 광고를 보지 않았다면 false이다"라는 명제는 거짓이다.
+
+*/
+
+// const string9 = '"프리미엄 회원이거나 광고를 봤으면  ';
+// const string10 = '이지만, 프리미엄 회원이 아니거나 광고를 보지 않았다면 ';
+// const string11 = '이다"라는 명제는 거짓이다.';
+// const isPremiumMember = false;
+// const isWatchedAdd = true;
+
+// let result = (string9+isWatchedAdd)+(string10+isPremiumMember)+string11;
+// console.log(result)
+
+
+/* 질문사항
+1. 왜 마지막 결과값은 let을쓰는가? 값이 변할 수있으므로?
+2. 보통 console.log()로 찍어서 쓰나 그냥 breakpoint걸어서 쓰나
+3. 숫자 금액단위 구분은 방법이 없나? 보통 어떻게함?
+3. 5,6처럼 연결하는게 맞는건지? 7처럼 괄호 써야하나?
+4. 괄호 
+*/
+</script>
