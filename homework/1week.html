@@ -11,11 +11,10 @@
 
 //2. 1억원을 카카오뱅크의 1년만기 정기예금에 가입 하였다. 연 이자율이 1.2%이지만, 이자에 대한 세금이 15.4%이다. 예금 만기후 받을 실수령 금액은?
 // const money = 100000000;
-// const month = 12;
-// const interest = 1.012;
-// const tax = money * 0.154;
-// const realAmount = (money * month * interest) - tax;
-
+// const rate = 1.2;
+// const interest = money * rate / 100;
+// const tax = interest * 15.4 / 100;
+// const realAmount = money + interest - tax;
 // console.log(realAmount); 
 
 
@@ -58,10 +57,10 @@ let stringChange = ?;
 
 // const string1 = '곱하기 ';
 // const string2 = '는 ';
-// const string3 = ' 이다.';
+// const string3 = '이다.';
 // const ten = 10;
-// const four = 5;
-// let stringChange = ten+string1+ four+string2+ ((ten*four)+string3);
+// const five = 5;
+// let stringChange = ten + ' ' + string1 + five + ' ' + string2 + ((ten * five) + ' ' + string3);
 
 // console.log(stringChange)
 
@@ -79,7 +78,7 @@ let stringChange = ?;
 // const nine = 9;
 // const three = 3;
 
-// let stringChange = string4+nine+string5 +three+string6+string4+string7 + 'true'+string8;
+// let stringChange = string4 + nine + string5 + three + string6 + string4 + string7 + false + string8;
 
 // console.log(stringChange);
 
@@ -97,7 +96,7 @@ let stringChange = ?;
 // const isPremiumMember = false;
 // const isWatchedAdd = true;
 
-// let result = (string9+isWatchedAdd)+(string10+isPremiumMember)+string11;
+// let result = string9 + isWatchedAdd + string10 + isPremiumMember + string11;
 // console.log(result)
 
 
