@@ -1,0 +1,26 @@
+<script>
+
+// const func1 = function() {
+//   parameter1 += parameter1;
+//   const sum1 = parameter1;
+
+
+//   return sum1;  // return을 쓰지않으면 undefined;
+// };
+// const returned1 = func1(1, 2);
+
+// 함수 read(func1), 함수 호출(func1())은 다르다.
+// compile error: 오류문법, 프로그램 실행자체가 되지않는다.
+// runtime error: 프로그램 실행 중 에러가 발생. ex) 선언하지 않는 변수를 read할 때**
+
+
+
+
+// 문제: console.log('함수 호출');이라는 실행문을 가진 함수를 상수 f1에 넣고, 해당 함수 호출 시키기
+
+const f1 = function() {
+  console.log('함수 호출');
+}
+
+f1();
+</script>
