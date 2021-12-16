@@ -1,0 +1,44 @@
+<script>
+// 문제1: 두수를 입력값으로 받아 합을 alert로 나타내기
+// const num1 = parseInt(prompt("첫 번째 숫자는?"));
+// const num2 = parseInt(prompt("두 번째 숫자는?"));
+
+// function addNum (a, b) {
+//   const sum = num1 +  num2;
+//   alert("두 수를 더한 값은 " + sum + "입니다.");
+// }
+
+// addNum(num1, num2);
+
+
+//ES6함수의 매개변수 기본 값 지정하기: ES6에서는 함수선언시 인자(매개변수)의 기본값을 정할 수있다.
+// function multiple(a, b=5, c=10) {
+
+//   return a + b + c;
+
+// }
+
+// multiple (1, 2, 3);   //6
+// multiple (10, 20);  //40
+// multiple (30);  //42
+
+
+// 3. return: 함수실행 후 결과 값을 함수 밖으로(함수 호출부)에 반환한다.
+// 함수 결과 값을 반환할 때는 return 예약어 다음에 넘겨줄 값이나 변수, 식을 지정.
+
+
+function addNum2 (a, b) {
+  
+  const sum = a + b;
+  //alert("두 수의 합은 " + sum + "입니다.");
+
+  return sum;
+}
+
+const num1 = parseInt(prompt("첫 번째 숫자는?"));
+const num2 = parseInt(prompt("두 번째 숫자는?"));
+const result = addNum2(num1, num2);  
+alert("두 수의 합은 "+ result +"입니다.");
+
+
+</script>
